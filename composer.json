@@ -1,0 +1,35 @@
+{
+    "name": "magenxcommerce/module-msrp",
+    "description": "N/A",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magenxcommerce/module-store": "100.1.*",
+        "magenxcommerce/module-catalog": "101.0.*",
+        "magenxcommerce/module-downloadable": "100.1.*",
+        "magenxcommerce/module-eav": "100.1.*",
+        "magenxcommerce/module-grouped-product": "100.1.*",
+        "magenxcommerce/module-tax": "100.1.*",
+        "magenxcommerce/framework": "100.1.*"
+    },
+    "suggest": {
+        "magenxcommerce/module-bundle": "100.1.*",
+        "magenxcommerce/module-msrp-sample-data": "Sample Data version:100.1.*"
+    },
+    "type": "magento2-module",
+    "version": "100.1.5",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\Msrp\\": ""
+        }
+    },
+    "replace": {
+        "magento/module-msrp": "*"
+    }
+}
